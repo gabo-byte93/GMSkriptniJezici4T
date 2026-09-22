@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG</title>
+    <style>
+
+        body {
+            background-color: lightblue
+        }
+
+        svg {
+            border: 1px solid black;
+            background-color: white;
+        }
+
+        div {
+            padding: 100px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+<div>    
+    <svg width="700" height="700">
+
+        <!-- izrada pravokutnika -->
+         <rect
+            x="50"
+            y="50"
+            width="200"
+            height="100"
+            fill="pink"
+            stroke="black"
+            stroke-width="3"
+         />
+
+         <!-- Izrada kruga -->
+          <circle
+            cx="350"
+            cy="400"
+            r="50"
+            fill="yellow"
+            stroke="black"
+            stroke-width="3"       
+          />
+
+          <!-- Izrada elipse -->
+           <ellipse 
+            cx="150"
+            cy="250"
+            rx="100"
+            ry="50"
+            fill="lime"
+            Stroke="black"
+            stroke-width="3"  
+          />
+
+          <!-- Izrada linije -->
+           <line
+            x1="500"
+            y1="500"
+            x2="600"
+            y2="600"
+            stroke="red"
+            stroke-width="3"
+          />
+    </svg>
+</div>
+</body>
+</html>
