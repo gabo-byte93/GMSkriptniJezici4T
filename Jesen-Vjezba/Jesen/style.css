@@ -1,0 +1,206 @@
+body {
+    background-image: url(jesen.png);
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.basmoramudivdeti {
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.basmoramudivdeti hr {
+    border: 2px solid crimson;
+    max-width: 100%;
+}
+
+.overlay1 {
+    max-width: 100%;
+
+    background-color: rgba(46, 41, 41, 0.678);
+    margin: 0 auto;
+    padding: 10px;
+    border-top: 3px solid red;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.overlay2 {
+    max-width: 95%;
+    background-color: rgba(170, 120, 28, 0.521);
+    margin: 0 auto;
+    padding: 10px;
+    border-top: 3px solid gold;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.pocetak {
+    max-width: 100%;
+    text-align: center;
+}
+
+.pocetak hr{
+    border: 2px solid gold;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.prvi, .drugi, .treci {
+    border: 2px solid black;
+    background-color: white;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    padding: 10px;
+    box-shadow: 10px 10px 15px darkred;
+    transition: 0.1s ease-in-out;
+}
+
+.cetvrti, .peti, .sesti {
+    border: 2px solid black;
+    background-color: white;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    padding: 10px;
+    transition: 0.1s ease-in-out;
+    
+}
+
+/* Hover efekt radi tako da mjenja određene elemente kad mišem pređemo preko njih */
+
+/* btw molio bih za dobru ocjenu pls */
+
+.prvi:hover {
+    transition: 0.1s ease-in-out;
+    box-shadow: 0px 0px 45px gold;
+    transform: scale(1.01)
+               rotate(5deg);
+}
+
+.drugi:hover {
+    transition: 0.1s ease-in-out;
+    box-shadow: 0px 0px 45px gold;
+    transform: scale(1.01)
+               rotate(-5deg);
+}
+
+.treci:hover {
+    transition: 0.1s ease-in-out;
+    box-shadow: 0px 0px 45px gold;
+    transform: scale(1.01)
+               rotate(-5deg);
+}
+
+.cetvrti:hover {
+    transition: 0.1s ease-in-out;
+    box-shadow: 0px 0px 45px gold;
+    transform: scale(1.01)
+               rotate(-5deg);
+}
+
+.peti:hover {
+    transition: 0.1s ease-in-out;
+    box-shadow: 0px 0px 45px gold;
+    transform: scale(1.01)
+               rotate(-5deg);
+}
+
+.sesti:hover {
+    transition: 0.1s ease-in-out;
+    box-shadow: 0px 0px 45px gold;
+    transform: scale(1.01)
+               rotate(5deg);
+}
+
+.prvi {
+    transform: rotate(-5deg);
+    box-shadow: 0px 0px 15px darkred;
+}
+
+.drugi {
+    transform: translate(0px, -26px);
+    box-shadow: 0px 0px 15px darkred;
+}
+
+.treci {
+    transform: rotate(5deg);
+    box-shadow: 0px 0px 15px darkred;
+}
+
+.cetvrti {
+    transform: rotate(5deg);
+    box-shadow: 0px 0px 15px darkred;
+}
+
+.peti {
+    transform: translate(0px, 26px);
+    box-shadow: 0px 0px 15px darkred;
+}
+
+.sesti {
+    transform: rotate(-5deg);
+    box-shadow: 0px 0px 15px darkred;
+}
+
+.okvir1, .okvir2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.slikice1, .slikice2, .slikice3 {
+    border: 2px solid black;
+    background: none;
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0px 0px 15px orange;
+    transition: 0.1s ease-in-out;
+
+}
+
+.slikice1 img, .slikice2 img, .slikice3 img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.slikice1:hover, .slikice2:hover, .slikice3:hover {
+    transition: 0.1s ease-in-out;
+    box-shadow: 0px 0px 45px gold;
+    transform: scale(1.01)
+               rotate(-5deg);
+}
+
+.kraj {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.kraj hr {
+    border: 2px solid gold;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
