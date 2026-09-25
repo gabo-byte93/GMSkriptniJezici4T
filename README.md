@@ -1,1 +1,1 @@
-Jel mogu sliku deti u readme?
+Ovo je repository Gabriela Milaka za 4. razred SŠNM :)
