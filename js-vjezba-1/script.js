@@ -1,0 +1,1 @@
+alert("JS datoteka je uspješno povezana!");
